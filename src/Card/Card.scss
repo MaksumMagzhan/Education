@@ -1,0 +1,67 @@
+.Card {
+  font-family: Raleway;
+  width: 950px;
+  margin: 20px auto 50px;
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+}
+
+.Card__image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Card__body {
+  padding: 20px 30px 30px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Card__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3f51b5;
+}
+
+.Card__subtitle {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #3f51b5;
+}
+
+.Card__button {
+  max-width: 200px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #3f51b5;
+  opacity: 0.7;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.Card__description {
+  max-height: 122px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Result__card {
+  width: 100%;
+  border-bottom: 1px solid #3f51b5;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
+}
+
+.Card__grid {
+  font-family: Raleway;
+  color: #3f51b5;
+  font-size: 18px;
+}

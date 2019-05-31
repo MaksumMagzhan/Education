@@ -1,0 +1,22 @@
+.University {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.University__content {
+  display: grid;
+  grid-template-columns: 0.5fr 1.5fr;
+  margin-top: 30px;
+  grid-column-gap: 30px;
+}
+
+.University__image {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.University__description {
+  text-align: justify;
+  font-size: 20px;
+}
